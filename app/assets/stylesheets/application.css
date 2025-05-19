@@ -13,3 +13,13 @@
  *= require_tree .
  *= require_self
  */
+.btn :hover {
+  background-color: #239BFF;
+  box-shadow:
+         0 0 20px #239BFF,
+          0 0 80px #239BFF,
+           0 0 160px #239BFF,
+            0 0 320px #239BFF;
+      color: #255784;
+      transition-delay: 3s;
+  }
